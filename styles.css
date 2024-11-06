@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4285f4;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-button:hover {
+    background-color: #357ae8;
+}
